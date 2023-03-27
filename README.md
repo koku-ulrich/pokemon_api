@@ -1,11 +1,11 @@
 ## POKEMON API
 
-#### Aim of the exercise
+### Aim of the exercise
+The goal of this project is to build an interactive Pokedex. 
 
-The goal of this project is to build an interactive Pokedex.
+#### NB : I Hope you already setup the [Front](https://github.com/koku-ulrich/pokemon)
 
-
-#### Tech/framework used
+### Tech/framework used
 
 Project is created with:
 
@@ -27,6 +27,8 @@ pip install -r requirements.txt
 ### Create database sqlite :
 ```
 python manage.py makemigrations Pokemon
+```
+```
 python manage.py migrate Pokemon
 ```
 
