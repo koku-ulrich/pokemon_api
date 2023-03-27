@@ -16,7 +16,7 @@ Project is created with:
 * [Sqlite3](https://sqlite.org/index.html)
 * [Pandas](https://pandas.pydata.org/)
 * [Python](https://www.python.org/)
-* 
+
 ### Project setup
 
 First install the project dependencies :
@@ -31,7 +31,6 @@ python manage.py migrate Pokemon
 ```
 
 ### To Register Pokemon data to sqlite
-
 ```
 python manage.py runscript upload_csv
 ```
